@@ -3,3 +3,4 @@
 html[data-view="2d"] .route-2d{display:block}html[data-view="2d"] #world-canvas,html[data-view="2d"] .mist{display:none}html[data-view="2d"] .map-hint{color:#5d9080;font-size:0}html[data-view="2d"] .map-hint:after{content:"GPSの移動軌跡を確認";font-size:11px}
 /* Keep the application controls above a full-screen map layer. */
 .map-stage{z-index:0}.topbar{z-index:30}.view-switch{z-index:29}.day-card{z-index:30}.nav{z-index:31}.route-2d svg{overflow:hidden}html[data-view="2d"] #world-canvas{display:none!important}
+html[data-view="2d"] .route-legend{top:146px}html[data-view="2d"] .map-hint{display:none}
