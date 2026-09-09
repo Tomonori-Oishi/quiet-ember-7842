@@ -1,0 +1,9 @@
+{
+  "name": "MY WORLD",
+  "short_name": "MY WORLD",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#050c14",
+  "theme_color": "#050c14",
+  "lang": "ja"
+}
