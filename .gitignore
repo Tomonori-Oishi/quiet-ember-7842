@@ -1,0 +1,7 @@
+# Local Codex workspace instructions are not part of the public app.
+AGENTS.md
+
+# Future private user data must never be published with the app.
+user-data/
+*.env
+.env*
