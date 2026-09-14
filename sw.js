@@ -1,4 +1,4 @@
-const CACHE = 'my-world-v33';
+const CACHE = 'my-world-v34';
 const ASSETS = ['./', './index.html', './style.css', './figma-footer.css', './app.js', './manifest.webmanifest', './compass.svg', './figma-assets/generate.svg', './figma-assets/map.svg', './figma-assets/memories.svg', './figma-assets/history.svg', './assets-world-bright.png', './assets/wdr_bridge_small_01.glb', './assets/wdr_bush_01.glb', './assets/wdr_flower_01.glb', './assets/wdr_ground_dirt_01.glb', './assets/wdr_ground_grass_01.glb', './assets/wdr_house_medium_01.glb', './assets/wdr_lamp_01.glb', './assets/wdr_road_stone_01.glb', './assets/wdr_rock_large_01.glb', './assets/wdr_rock_small_01.glb', './assets/wdr_tower_01.glb', './assets/wdr_tree_round_01.glb', './assets/wdr_water_pool_01.glb'];
 self.addEventListener('install', (event) => event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(ASSETS))));
 self.addEventListener('fetch', (event) => event.respondWith(caches.match(event.request).then((cached) => cached || fetch(event.request))));
